@@ -1,0 +1,3 @@
+﻿function gita. {
+    git add .
+}
