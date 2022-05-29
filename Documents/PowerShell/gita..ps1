@@ -1,3 +1,3 @@
 ﻿function gita. {
-    git add .
+    git add . $args
 }
