@@ -1,6 +1,7 @@
 ﻿$actualLocation = Get-Location
 Set-Location $PSScriptRoot
 
+. ./...ps1
 . ./gita..ps1
 . ./gita.ps1
 . ./gitm.ps1
