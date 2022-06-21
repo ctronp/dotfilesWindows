@@ -10,5 +10,6 @@ Set-Location $PSScriptRoot
 . ./l.ps1
 . ./nano.ps1
 
+Set-PSReadLineOption -PredictionSource History
 
 Set-Location $actualLocation
