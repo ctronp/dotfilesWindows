@@ -1,4 +1,4 @@
-﻿$actualLocation = Get-Location
+$actualLocation = Get-Location
 Set-Location $PSScriptRoot
 
 . ./...ps1
@@ -9,7 +9,6 @@ Set-Location $PSScriptRoot
 . ./gits.ps1
 . ./l.ps1
 . ./nano.ps1
-
-Set-PSReadLineOption -PredictionSource History
+. ./k.ps1
 
 Set-Location $actualLocation
